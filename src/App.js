@@ -1,11 +1,14 @@
 import React from 'react';
+import { Reset } from 'styled-reset'
 
 const App = () => 
   (
-    <div className="App">
-      aaaaaaaa
-    </div>
+    <>
+      <Reset />
+      <div className="App">
+        aaaaaaaa
+      </div>
+    </>
   );
-
 
 export default App;
